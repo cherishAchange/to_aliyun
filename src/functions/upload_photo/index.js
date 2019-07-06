@@ -36,6 +36,7 @@ export default class UploadPhoto extends Component {
     );
     return (
       <div className="clearfix">
+        <div>hello world!</div>
         <Upload
           action="//jsonplaceholder.typicode.com/posts/"
           listType="picture-card"
